@@ -1,13 +1,139 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(5, 5, 40);
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.navbar {
+  height: 89px;
+  border-bottom: 3px solid rgb(215, 215, 215);
+}
+
+.navlogo {
+  width: 55px;
+  height: 55px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.navbar-brand {
+  display: flex;
+  flex-direction: row;
+  gap: 21px;
+  font-size: 26px;
+  align-items: center;
+}
+
+#navbarTogglerDemo02 {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.home-intro {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 89px 21px;
+  background: linear-gradient(34deg, rgba(25, 25, 25, 0.62), rgba(5, 5, 40, 1));
+  background-size: cover;
+  margin-top: 55px;
+  box-shadow: 0 0 13px rgb(40, 40, 160);
+}
+
+.techra {
+  width: 38%;
+  color: rgb(40, 40, 160);
+}
+
+.techra h1 {
+  color: rgb(63, 63, 255);
+  font-size: 144px;
+}
+
+.valueprop {
+  background: rgb(5, 5, 40);
+  border-radius: 21px;
+  width: 50%;
+  box-shadow: 0 0 13px rgb(40, 40, 160);
+  padding: 55px 21px;
+}
+
+section {
+  margin: 144px auto;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 89px 144px;
+  background: linear-gradient(34deg, rgba(25, 25, 25, 0.62), rgba(5, 5, 40, 1));
+  background-size: cover;
+  margin: 144px auto;
+  border-radius: 21px;
+  box-shadow: 0 0 13px rgb(40, 40, 160);
+}
+
+.subhead {
+  margin: 21px auto;
+}
+
+.home-headline h1 {
+  color: rgb(160, 160, 255);
+}
+
+article ul {
+  width: fit-content;
+  margin: 0 auto;
+  list-style: none;
+}
+
+article ul li {
+  margin: 13px auto;
+  text-decoration: underline;
+}
+
+.home-page form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  gap: 21px;
+}
+.home-page form input[type="text"] {
+  width: 377px;
+  height: 40px;
+  border-radius: 34px;
+  text-align: center;
+  border: 2px solid rgb(160, 160, 255);
+}
+
+.home-page form button[type="submit"] {
+  width: 233px;
+  height: 40px;
+  margin: 0 auto;
+  border-radius: 34px;
+  text-align: center;
+  background-color: rgb(5, 5, 40);
+  color: rgb(160, 160, 255);
+}
+
+.offer {
+  padding: 89px 144px;
+  background: linear-gradient(34deg, rgba(25, 25, 25, 0.62), rgba(5, 5, 40, 1));
+  background-size: cover;
+  margin: 144px auto;
+  border-radius: 21px;
+  box-shadow: 0 0 13px rgb(40, 40, 160);
 }
