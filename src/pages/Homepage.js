@@ -5,11 +5,11 @@ import introbg from "../media/bg3.jpg";
 const Homepage = () => {
   return (
     <div className="home-page">
-      <div className="container">
-        <div
-          className="home-intro-wrapper"
-          style={{ backgroundImage: `url(${introbg})` }}
-        >
+      <div
+        className="home-intro-wrapper"
+        style={{ backgroundImage: `url(${introbg})` }}
+      >
+        <div className="container">
           <section className="home-intro">
             <div className="techra">
               <h1 className="display-1">Techra</h1>
@@ -22,6 +22,8 @@ const Homepage = () => {
             </div>
           </section>
         </div>
+      </div>
+      <div className="container">
         <Bounce left>
           <section className="home-headline">
             <h1 className="display-4">
