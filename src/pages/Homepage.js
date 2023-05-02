@@ -16,7 +16,7 @@ const Homepage = () => {
               <h2>Software Solutions LLC.</h2>
             </div>
             <div className="valueprop">
-              <h1 className="h1 text-light">
+              <h1 className="text-light">
                 Affordable Software Services From Experts
               </h1>
             </div>
