@@ -52,9 +52,9 @@ const Homepage = () => {
               With Senior Developers You Get Excellence
             </h3>
             <p className="h4 text-light">
-              Don’t worry anymore about working with entry level or junior
+              Are you already worried about working with entry level or junior
               developers with a lack of professional experience because of a
-              tight budget. <br />
+              tight budget? <br />
               <br />
               What your product does for your customers is why they pay you
               money. So with poor quality products you can be losing lots of
@@ -64,9 +64,13 @@ const Homepage = () => {
               product that fits your business needs.
               <br />
               <br />
-              At Olive Solutions, the only developers working on your product
-              are senior software developers with years of professional
-              experience. <br />
+              <strong className="text-warning">
+                At Techra, the only developers working on your product are{" "}
+                <u>Senior Software Developers</u> who are{" "}
+                <u>University Graduates</u> with an average of{" "}
+                <u>11 years of work experience.</u>
+              </strong>{" "}
+              <br />
               <br />
               You can be sure that you are provided with high quality, fast and
               reliable solutions. The detail-oriented, caring professionals who
@@ -77,20 +81,29 @@ const Homepage = () => {
           <article>
             <h3 className="subhead h1 text-warning">Don't Get Bamboozled</h3>
             <p className="h4 text-light">
-              Imagine you hired a foreign company for its cheap prices. Aside
-              from their cheap prices they provide you with cheap products.
-              Maybe they pull some tricks on you and play games to squeeze every
-              dollar from your budget. Maybe they deliver the product but after
-              a while you find that they intentionally put a few bugs in it.
-              That way they can take more money from you to fix the bugs they
-              created. What can you do then but get demoralized?
+              Imagine you hired a foreign company for its cheap prices. <br />
+              <br />
+              Aside from their cheap prices they provide you with cheap
+              products.
+              <br />
+              <br /> Maybe they pull some tricks on you and play games to
+              squeeze every dollar from your budget.
+              <br />
+              <br /> Maybe they deliver the product but after a while you find
+              that they intentionally put a few bugs in it. That way they can
+              take more money from you to fix the bugs they created. What can
+              you do then but get demoralized?
               <br />
               <br />
-              That situation is very common. It’s why many startups are starting
-              to only work with companies based in the U.S. who take their
-              reputation seriously. Based in upstate New York, the Hudson Valley
-              area, Techra provides you with the safety and security of dealing
-              with accountable professionals.
+              A few clients of ours went through such experiences previously.
+              <br />
+              <br /> It’s why many startups are starting to only work with
+              companies based in the U.S. who take their reputation seriously.
+              <br />
+              <br />
+              Based in <u>upstate New York, the Hudson Valley area,</u> Techra
+              provides you with the safety and security of dealing with
+              accountable professionals.
             </p>
           </article>
           <article>
@@ -98,21 +111,33 @@ const Homepage = () => {
               We Count On Your Success For Our Success
             </h3>
             <p className="h4 text-light">
-              Money matters a lot in the beginning of a business. To get quality
-              software engineering services you usually need to pay large sums
-              of money. Aside from the product, you got marketing to worry
-              about, legal things and so on. Startup businesses are risky, but
-              we will do everything in our power to ensure that the software
-              aspect of your business is not a worrying matter.
+              Money matters a lot in the beginning of a business.
+              <br />
+              <br /> To get quality software engineering services you usually
+              need to pay large sums of money.
+              <br />
+              <br /> Aside from the product, you got marketing to worry about,
+              legal things and so on. <br />
+              <br />
+              Startup businesses are risky, but we will do everything in our
+              power to ensure that the software aspect of your business is not a
+              worrying matter.
               <br />
               <br />
-              Techra is a startup business ourselves. We understand that your
-              business needs to be effective in its spending. Every penny
-              matters. We also understand that for our own startup, the
-              satisfaction of every client is valuable to our reputation. For
-              that reason we are flexible with budget concerns. And what matters
-              to us more than money is a mutually beneficial relationship with
-              you and to satisfy your needs and monetary concerns.
+              Techra is a startup business ourselves.
+              <br />
+              <br /> We understand that your business needs to be effective in
+              its spending.
+              <br />
+              <br /> Every penny matters. <br />
+              <br />
+              We also understand that for our own startup, the satisfaction of
+              every client is valuable to our reputation. For that reason we are
+              flexible with budget concerns. <br />
+              <br />
+              And what matters to us more than money is a mutually beneficial
+              relationship with you and to satisfy your needs and monetary
+              concerns.
             </p>
           </article>
           <article>
