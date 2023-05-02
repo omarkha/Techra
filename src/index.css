@@ -44,7 +44,7 @@ code {
   flex-direction: row;
   justify-content: space-evenly;
   padding: 89px 21px;
-  background: linear-gradient(34deg, rgba(25, 25, 25, 0.62), rgba(5, 5, 40, 1));
+  background: linear-gradient(-34deg, rgba(25, 25, 101, 1), rgba(5, 5, 40, 1));
   background-size: cover;
   margin-top: 55px;
   box-shadow: 0 0 13px rgb(40, 40, 160);
