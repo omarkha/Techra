@@ -37,7 +37,7 @@ const Homepage = () => {
           </section>
         </Fade>
         <section className="home-copy">
-          <Fade>
+          <Fade right>
             <article>
               <h3 className="subhead h1 text-primary">
                 Capture Your Share of Tech Fortune
@@ -66,7 +66,7 @@ const Homepage = () => {
               </p>
             </article>
           </Fade>
-          <Fade>
+          <Fade left>
             <article>
               <h3 className="subhead h1 text-primary">
                 With Senior Developers You Get Excellence
@@ -99,7 +99,7 @@ const Homepage = () => {
               </p>
             </article>
           </Fade>
-          <Fade>
+          <Fade right>
             <article>
               <h3 className="subhead h1 text-primary">
                 You Won't Get Bamboozled
@@ -131,7 +131,7 @@ const Homepage = () => {
               </p>
             </article>
           </Fade>
-          <Fade>
+          <Fade left>
             <article>
               <h3 className="subhead h1 text-primary">
                 We Count On Your Success For Our Success
@@ -167,7 +167,7 @@ const Homepage = () => {
               </p>
             </article>
           </Fade>
-          <Fade>
+          <Fade right>
             <article>
               <h3 className="subhead h1 text-primary">
                 The Job You Need Will Be Done

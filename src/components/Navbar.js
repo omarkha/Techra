@@ -1,17 +1,18 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../media/logo.png";
+
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light ">
       <div className="container">
-        <a className="navbar-brand" href="#">
+        <Link className="navbar-brand" to="/">
           <div
             className="navlogo"
             style={{ backgroundImage: `url(${logo})` }}
           ></div>
           Techra
-        </a>
+        </Link>
         <button
           className="navbar-toggler"
           type="button"
@@ -27,19 +28,19 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
           <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
             <li className="nav-item active">
-              <a className="nav-link" href="#">
+              <Link className="nav-link" to="/services">
                 Services
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <Link className="nav-link" to="/about">
                 About Us
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <Link className="nav-link" to="/policies">
                 Policies
-              </a>
+              </Link>
             </li>
           </ul>
           <Link to="/contact" id="nav-button">
