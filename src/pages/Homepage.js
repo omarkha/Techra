@@ -28,8 +28,8 @@ const Homepage = () => {
             </h3>
             <p className="h4 text-light">
               With over 4,900,000,000 people in the world having access to the
-              internet, smart, confident and entrepreneurial individuals see
-              gold mines in the technology sector.
+              internet, smart and confident entrepreneurs see gold mines in the
+              technology sector.
               <br />
               <br />
               Real entreprenurs know the value of a quality software
