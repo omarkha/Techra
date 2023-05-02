@@ -58,6 +58,7 @@ code {
 .techra h1 {
   color: rgb(63, 63, 255);
   font-size: 144px;
+  text-shadow: 0 0 13px rgb(40, 40, 160);
 }
 
 .valueprop {
@@ -66,6 +67,7 @@ code {
   width: 50%;
   box-shadow: 0 0 13px rgb(40, 40, 160);
   padding: 55px 21px;
+  text-shadow: 0 0 5px rgb(160, 160, 40);
 }
 
 section {
