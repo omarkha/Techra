@@ -97,7 +97,9 @@ const Homepage = () => {
           </Fade>
           <Fade>
             <article>
-              <h3 className="subhead h1 text-primary">Don't Get Bamboozled</h3>
+              <h3 className="subhead h1 text-primary">
+                You Won't Get Bamboozled
+              </h3>
               <p className=" text-dark">
                 Imagine you hired a foreign company for its cheap prices. <br />
                 <br />
