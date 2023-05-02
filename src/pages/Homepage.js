@@ -27,7 +27,7 @@ const Homepage = () => {
               Capture Your Share of Tech Fortune
             </h3>
             <p className="h4 text-light">
-              Today’s entrepreneurs know the value of modern technology. One
+              Real entreprenurs know the value of software. Because, one
               application can be the difference between a house and a mansion.
               With over 4.9 billion people in the world having access to the
               internet, smart, confident and entrepreneurial individuals see
