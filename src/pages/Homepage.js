@@ -1,23 +1,29 @@
 import React from "react";
+import introbg from "../media/bg3.jpg";
 
 const Homepage = () => {
   return (
     <div className="home-page">
       <div className="container">
-        <section className="home-intro">
-          <div className="techra">
-            <h1 className="display-1">Techra</h1>
-            <h2>Software Solutions LLC.</h2>
-          </div>
-          <div className="valueprop">
-            <h1 className="display-4 text-warning">
-              Affordable Software Services From Experts
-            </h1>
-          </div>
-        </section>
+        <div
+          className="home-intro-wrapper"
+          style={{ backgroundImage: `url(${introbg})` }}
+        >
+          <section className="home-intro">
+            <div className="techra">
+              <h1 className="display-1">Techra</h1>
+              <h2>Software Solutions LLC.</h2>
+            </div>
+            <div className="valueprop">
+              <h1 className="h1 text-light">
+                Affordable Software Services From Experts
+              </h1>
+            </div>
+          </section>
+        </div>
         <section className="home-headline">
           <h1 className="display-4">
-            Startup Businesses can now get Senior Developers at a Cost You Can
+            Startup Businesses, now, can get Senior Developers at a Cost You Can
             Afford
           </h1>
         </section>
@@ -26,7 +32,7 @@ const Homepage = () => {
             <h3 className="subhead h1 text-warning">
               Capture Your Share of Tech Fortune
             </h3>
-            <p className="h4 text-light">
+            <p className=" text-light">
               With over 4,900,000,000 people in the world having access to the
               internet, smart and confident entrepreneurs see gold mines in the
               technology sector.
@@ -51,7 +57,7 @@ const Homepage = () => {
             <h3 className="subhead h1 text-warning">
               With Senior Developers You Get Excellence
             </h3>
-            <p className="h4 text-light">
+            <p className=" text-light">
               Are you already worried about working with entry level or junior
               developers with a lack of professional experience because of a
               tight budget? <br />
@@ -80,7 +86,7 @@ const Homepage = () => {
           </article>
           <article>
             <h3 className="subhead h1 text-warning">Don't Get Bamboozled</h3>
-            <p className="h4 text-light">
+            <p className=" text-light">
               Imagine you hired a foreign company for its cheap prices. <br />
               <br />
               Aside from their cheap prices they provide you with cheap
@@ -110,7 +116,7 @@ const Homepage = () => {
             <h3 className="subhead h1 text-warning">
               We Count On Your Success For Our Success
             </h3>
-            <p className="h4 text-light">
+            <p className=" text-light">
               Money matters a lot in the beginning of a business.
               <br />
               <br /> To get quality software engineering services you usually
@@ -144,7 +150,7 @@ const Homepage = () => {
             <h3 className="subhead h1 text-warning">
               The Job You Need Will Be Done
             </h3>
-            <p className="h4 text-light">
+            <p className=" text-light">
               With web, mobile and even desktop development expertise, We can do
               the following for you:
               <br />

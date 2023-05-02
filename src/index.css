@@ -39,38 +39,41 @@ code {
   justify-content: center;
 }
 
+.home-intro-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: calc(100vh - 55px);
+  margin-top: 0;
+  background-size: cover;
+}
+
 .home-intro {
-  border-radius: 34px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  padding: 89px 21px;
-  background: linear-gradient(
-    -34deg,
-    rgba(25, 25, 101, 0.62),
-    rgba(5, 5, 40, 1)
-  );
+  height: fit-content;
+  background: linear-gradient(45deg, rgba(25, 25, 25, 1), rgba(5, 5, 63, 0));
   background-size: cover;
-  margin: 0 auto;
-  box-shadow: 0 0 13px rgb(40, 40, 160);
+  margin: 34px;
+  border-radius: 34px;
 }
 
 .techra {
   width: 38%;
-  color: rgb(40, 40, 160);
+  color: rgb(160, 160, 255);
 }
 
 .techra h1 {
-  color: rgb(63, 63, 255);
+  color: rgb(255, 255, 255);
   font-size: 144px;
   text-shadow: 0 0 13px rgb(40, 40, 160);
 }
 
 .valueprop {
-  background: rgb(5, 5, 40);
   border-radius: 21px;
   width: 50%;
-  box-shadow: 0 0 13px rgb(40, 40, 160);
   padding: 55px 21px;
   text-shadow: 0 0 5px rgb(160, 160, 40);
 }
@@ -96,7 +99,11 @@ article {
 }
 
 .home-headline h1 {
-  color: rgb(160, 160, 255);
+  color: rgb(255, 255, 255);
+}
+
+article p {
+  font-size: 21px;
 }
 
 article ul {
@@ -173,8 +180,6 @@ footer ul {
 }
 
 .home-page .container {
+  padding: 0;
   background-color: rgb(5, 5, 63);
-  border-left: 2px solid rgb(160, 160, 255);
-  border-right: 2px solid rgb(160, 160, 255);
-  padding: 55px 34px;
 }
