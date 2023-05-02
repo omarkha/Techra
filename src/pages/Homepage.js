@@ -24,7 +24,7 @@ const Homepage = () => {
         <section className="home-copy">
           <article>
             <h3 className="subhead h1 text-warning">
-              Capture The Gold-Mines In Tech
+              Capture Your Share of Tech Fortune
             </h3>
             <p className="h4 text-light">
               Today’s entrepreneurs know the value of modern technology. One
