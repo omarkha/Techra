@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(5, 5, 40);
+  background-color: rgb(5, 5, 25);
 }
 
 code {
@@ -40,6 +40,7 @@ code {
 }
 
 .home-intro {
+  border-radius: 34px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -50,7 +51,7 @@ code {
     rgba(5, 5, 40, 1)
   );
   background-size: cover;
-  margin-top: 55px;
+  margin: 0 auto;
   box-shadow: 0 0 13px rgb(40, 40, 160);
 }
 
@@ -169,4 +170,11 @@ footer ul {
   height: 144px;
   background-size: cover;
   margin-top: -13px;
+}
+
+.home-page .container {
+  background-color: rgb(5, 5, 63);
+  border-left: 2px solid rgb(160, 160, 255);
+  border-right: 2px solid rgb(160, 160, 255);
+  padding: 55px 34px;
 }
