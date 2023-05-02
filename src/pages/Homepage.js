@@ -7,7 +7,7 @@ const Homepage = () => {
         <section className="home-intro">
           <div className="techra">
             <h1 className="display-1">Techra</h1>
-            <h2>Software Solutions</h2>
+            <h2>Software Solutions LLC.</h2>
           </div>
           <div className="valueprop">
             <h1 className="display-4 text-warning">
