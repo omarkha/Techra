@@ -2,7 +2,7 @@ import React from "react";
 import logo from "../media/logo.png";
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav className="navbar navbar-expand-lg navbar-dark ">
       <div className="container">
         <a className="navbar-brand" href="#">
           <div
