@@ -238,5 +238,19 @@ footer ul {
   align-items: center;
   background-color: rgb(25, 25, 25);
 }
-.spinner {
+
+.end-copy img {
+  width: 144px;
+}
+
+.end-copy article {
+  margin-top: -89px;
+}
+
+.clients {
+  display: flex;
+  flex-direction: row;
+  gap: 55px;
+  justify-content: center;
+  align-items: center;
 }

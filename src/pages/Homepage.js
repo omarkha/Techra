@@ -1,7 +1,9 @@
 import React from "react";
-import { Bounce, Fade, Zoom } from "react-reveal";
+import { Bounce, Fade, Flip, Zoom } from "react-reveal";
 import introbg from "../media/bg3.jpg";
-
+import storey from "../media/storey.png";
+import getyournest from "../media/get-your-nest.png";
+import scrybe from "../media/scrybe.jpg";
 const Homepage = () => {
   return (
     <div className="home-page">
@@ -216,6 +218,34 @@ const Homepage = () => {
             </div>
           </section>
         </Zoom>
+        <section className="end-copy">
+          <article>
+            <h3 className="mb-5">Some of Our Most Notable Clients are...</h3>
+            <div className="clients">
+              <Flip>
+                <div>
+                  <h5>Storey</h5>
+
+                  <img src={storey} alt="storey company image" />
+                </div>
+              </Flip>
+              <Flip>
+                <div>
+                  <h5>Get Your Nest</h5>
+
+                  <img src={getyournest} alt="get your nest company image" />
+                </div>
+              </Flip>
+              <Flip>
+                <div>
+                  <h5>Scrybe</h5>
+
+                  <img src={scrybe} alt="scrybe company image" />
+                </div>
+              </Flip>
+            </div>
+          </article>
+        </section>
       </div>
     </div>
   );
