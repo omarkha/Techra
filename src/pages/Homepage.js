@@ -43,13 +43,13 @@ const Homepage = () => {
               With Senior Developers You Get Excellence
             </h3>
             <p className="h4 text-light">
-              Don’t worry about working with entry level or junior developers
-              with a lack of professional experience. What your product does for
-              your customers is why they pay you money. With poor quality
-              products you can be losing lots of money, losing to your
-              competitors and losing repeat business. When you work with such
-              companies, you rarely get the product that fits your business
-              needs.
+              Don’t worry anymore about working with entry level or junior
+              developers with a lack of professional experience because of a
+              tight budget. What your product does for your customers is why
+              they pay you money. With poor quality products you can be losing
+              lots of money, losing to your competitors and losing repeat
+              business. When you work with such companies, you rarely get the
+              product that fits your business needs.
               <br />
               <br />
               At Olive Solutions, the only developers working on your product
