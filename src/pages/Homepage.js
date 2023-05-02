@@ -35,10 +35,10 @@ const Homepage = () => {
         <section className="home-copy">
           <Fade>
             <article>
-              <h3 className="subhead h1 text-warning">
+              <h3 className="subhead h1 text-primary">
                 Capture Your Share of Tech Fortune
               </h3>
-              <p className=" text-light">
+              <p className=" text-dark">
                 With over 4,900,000,000 people in the world having access to the
                 internet, smart and confident entrepreneurs see gold mines in
                 the technology sector.
@@ -64,10 +64,10 @@ const Homepage = () => {
           </Fade>
           <Fade>
             <article>
-              <h3 className="subhead h1 text-warning">
+              <h3 className="subhead h1 text-primary">
                 With Senior Developers You Get Excellence
               </h3>
-              <p className=" text-light">
+              <p className=" text-dark">
                 Are you already worried about working with entry level or junior
                 developers with a lack of professional experience because of a
                 tight budget? <br />
@@ -80,7 +80,7 @@ const Homepage = () => {
                 product that fits your business needs.
                 <br />
                 <br />
-                <strong className="text-warning">
+                <strong className="text-danger">
                   At Techra, the only developers working on your product are{" "}
                   <u>Senior Software Developers</u> who are{" "}
                   <u>University Graduates</u> with an average of{" "}
@@ -97,8 +97,8 @@ const Homepage = () => {
           </Fade>
           <Fade>
             <article>
-              <h3 className="subhead h1 text-warning">Don't Get Bamboozled</h3>
-              <p className=" text-light">
+              <h3 className="subhead h1 text-primary">Don't Get Bamboozled</h3>
+              <p className=" text-dark">
                 Imagine you hired a foreign company for its cheap prices. <br />
                 <br />
                 Aside from their cheap prices they provide you with cheap
@@ -127,10 +127,10 @@ const Homepage = () => {
           </Fade>
           <Fade>
             <article>
-              <h3 className="subhead h1 text-warning">
+              <h3 className="subhead h1 text-primary">
                 We Count On Your Success For Our Success
               </h3>
-              <p className=" text-light">
+              <p className=" text-dark">
                 Money matters a lot in the beginning of a business.
                 <br />
                 <br /> To get quality software engineering services you usually
@@ -163,10 +163,10 @@ const Homepage = () => {
           </Fade>
           <Fade>
             <article>
-              <h3 className="subhead h1 text-warning">
+              <h3 className="subhead h1 text-primary">
                 The Job You Need Will Be Done
               </h3>
-              <p className=" text-light">
+              <p className=" text-dark">
                 With web, mobile and even desktop development expertise, We can
                 do the following for you:
                 <br />
@@ -188,7 +188,7 @@ const Homepage = () => {
           <section className="home-offer">
             <div className="offer">
               <div className="offer-copy">
-                <h3 className="text-warning">Get a FREE Consultation</h3>
+                <h3 className="text-primary">Get a FREE Consultation</h3>
                 <h4 className="h5 text-light">
                   We will talk about your project idea, review your existing
                   code if you need,

@@ -87,11 +87,14 @@ article {
   flex-direction: column;
   justify-content: space-evenly;
   padding: 89px 144px;
-  background: linear-gradient(34deg, rgba(25, 25, 25, 0.62), rgba(5, 5, 40, 1));
+  background: linear-gradient(
+    34deg,
+    rgba(255, 255, 255, 0.62),
+    rgba(255, 255, 255, 1)
+  );
   background-size: cover;
   margin: 144px 55px;
   border-radius: 21px;
-  box-shadow: 0 0 13px rgb(40, 40, 160);
 }
 
 .subhead {
