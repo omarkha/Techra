@@ -27,15 +27,24 @@ const Homepage = () => {
               Capture Your Share of Tech Fortune
             </h3>
             <p className="h4 text-light">
-              Real entreprenurs know the value of software. Because, one
-              application can be the difference between a house and a mansion.
-              With over 4.9 billion people in the world having access to the
+              With over 4,900,000,000 people in the world having access to the
               internet, smart, confident and entrepreneurial individuals see
-              gold mines in the technology sector. And we know how to guide you
-              to capitalize on your ideas. Are you looking to capture business
-              opportunities? At Techra, We can design, fix and improve your web,
-              mobile and/or desktop apps. We’re here to make your product
-              produce more money.
+              gold mines in the technology sector.
+              <br />
+              <br />
+              Real entreprenurs know the value of a quality software
+              application. <br />
+              <br />
+              Because a quality application can be the difference between a
+              house and a mansion.
+              <br />
+              <br />
+              And we know how to guide you to capitalize on your ideas.
+              <br />
+              <br />
+              So are you looking to capture business opportunities? At Techra,
+              We can design, fix and improve your web, mobile and/or desktop
+              apps. We’re here to make your product produce more money.
             </p>
           </article>
           <article>
@@ -45,19 +54,24 @@ const Homepage = () => {
             <p className="h4 text-light">
               Don’t worry anymore about working with entry level or junior
               developers with a lack of professional experience because of a
-              tight budget. What your product does for your customers is why
-              they pay you money. With poor quality products you can be losing
-              lots of money, losing to your competitors and losing repeat
-              business. When you work with such companies, you rarely get the
+              tight budget. <br />
+              <br />
+              What your product does for your customers is why they pay you
+              money. So with poor quality products you can be losing lots of
+              money, losing to your competitors and losing repeat business.
+              <br />
+              <br /> When you work with such companies, you rarely get the
               product that fits your business needs.
               <br />
               <br />
               At Olive Solutions, the only developers working on your product
               are senior software developers with years of professional
-              experience. You can be sure that you are provided with high
-              quality, fast and reliable solutions. The detail-oriented, caring
-              professionals who work for you will prepare your product for the
-              market. And you can feel relaxed, confident and comfortable.
+              experience. <br />
+              <br />
+              You can be sure that you are provided with high quality, fast and
+              reliable solutions. The detail-oriented, caring professionals who
+              work for you will prepare your product for the market. And you can
+              feel relaxed, confident and comfortable.
             </p>
           </article>
           <article>
