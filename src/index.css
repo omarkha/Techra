@@ -254,3 +254,15 @@ footer ul {
   justify-content: center;
   align-items: center;
 }
+
+.footer-social-media {
+  display: flex;
+  flex-direction: row;
+  gap: 13px;
+}
+
+.footer-social-media div {
+  width: 34px;
+  height: 34px;
+  background-size: cover;
+}
