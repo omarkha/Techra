@@ -11,7 +11,7 @@ const Homepage = () => {
           </div>
           <div className="valueprop">
             <h1 className="display-4 text-warning">
-              Low-Cost Expert Software Services For Your Startup
+              Affordable Software Services From Experts
             </h1>
           </div>
         </section>
