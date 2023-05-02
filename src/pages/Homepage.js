@@ -17,8 +17,9 @@ const Homepage = () => {
         </section>
         <section className="home-headline">
           <h1 className="display-4">
-            Got a Startup? now, you can get your application needs met with
-            Senior Developers at a Cost You Can Afford
+            Got a Startup? <br />
+            Now, you can get your software needs met with Senior Developers at a
+            Cost You Can Afford
           </h1>
         </section>
         <section className="home-copy">
