@@ -44,7 +44,7 @@ code {
   justify-content: center;
   align-items: center;
   position: relative;
-  height: calc(100vh - 55px);
+  height: calc(100vh - 89px);
   margin-top: 0;
   background-size: cover;
 }
@@ -89,7 +89,7 @@ article {
   padding: 89px 144px;
   background: linear-gradient(34deg, rgba(25, 25, 25, 0.62), rgba(5, 5, 40, 1));
   background-size: cover;
-  margin: 144px auto;
+  margin: 144px 55px;
   border-radius: 21px;
   box-shadow: 0 0 13px rgb(40, 40, 160);
 }
