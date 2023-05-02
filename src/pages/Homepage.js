@@ -26,7 +26,7 @@ const Homepage = () => {
       <div className="container">
         <Bounce left>
           <section className="home-headline">
-            <h1 className="display-4">
+            <h1 className="display-4 text-dark">
               Startup Businesses, now, can get Senior Developers at a Cost You
               Can Afford
             </h1>
@@ -190,13 +190,15 @@ const Homepage = () => {
           <section className="home-offer">
             <div className="offer">
               <div className="offer-copy">
-                <h3 className="text-primary">Get a FREE Consultation</h3>
-                <h4 className="h5 text-light">
+                <h3 className="text-light">
+                  Get a <u>FREE Consultation</u>
+                </h3>
+                <h4 className="h5 text-dark">
                   We will talk about your project idea, review your existing
                   code if you need,
                   <br /> and we can negotiate to meet your needs.
                 </h4>
-                <h4 className="text-light mb-4">
+                <h4 className="text-dark mb-4">
                   Don't wait too long on our waiting list.
                   <br /> Schedule your appointment ASAP!
                 </h4>
@@ -206,8 +208,8 @@ const Homepage = () => {
                 <input type="text" placeholder="Enter your Email Address" />
                 <button type="submit">I Want a FREE Consultation</button>
               </form>
-              <h6 className="text-warning mt-3">
-                <u>Your privacy is fully protected.</u>
+              <h6 className="text-dark mt-3">
+                <strong>Your privacy is fully protected.</strong>
               </h6>
             </div>
           </section>

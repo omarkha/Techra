@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(5, 5, 40);
+  background-color: rgb(215, 215, 215);
 }
 
 code {
@@ -14,6 +14,7 @@ code {
 }
 
 .navbar {
+  background-color: rgb(5, 5, 40);
   height: 89px;
   border-bottom: 3px solid rgb(215, 215, 215);
 }
@@ -150,8 +151,8 @@ article ul li {
   padding: 89px 144px;
   background: linear-gradient(
     34deg,
-    rgba(25, 25, 101, 0.62),
-    rgba(5, 5, 40, 1)
+    rgba(160, 160, 255, 1),
+    rgba(101, 101, 255, 1)
   );
   background-size: cover;
   margin: 144px auto;
