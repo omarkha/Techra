@@ -1,8 +1,9 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import logo from "../media/logo.png";
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark ">
+    <nav className="navbar navbar-expand-lg navbar-light ">
       <div className="container">
         <a className="navbar-brand" href="#">
           <div
@@ -41,6 +42,9 @@ const Navbar = () => {
               </a>
             </li>
           </ul>
+          <Link to="/contact" id="nav-button">
+            Contact
+          </Link>
         </div>
       </div>
     </nav>

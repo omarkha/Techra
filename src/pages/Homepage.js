@@ -5,33 +5,35 @@ import introbg from "../media/bg3.jpg";
 const Homepage = () => {
   return (
     <div className="home-page">
-      <div
-        className="home-intro-wrapper"
-        style={{ backgroundImage: `url(${introbg})` }}
-      >
-        <div className="container">
-          <section className="home-intro">
-            <div className="techra">
-              <h1 className="display-1">Techra</h1>
-              <h2>Software Solutions LLC.</h2>
-            </div>
-            <div className="valueprop">
-              <h1 className="text-light">
-                Affordable Software Services From Experts
-              </h1>
-            </div>
-          </section>
+      <Fade>
+        <div
+          className="home-intro-wrapper"
+          style={{ backgroundImage: `url(${introbg})` }}
+        >
+          <div className="container">
+            <section className="home-intro">
+              <div className="techra">
+                <h1 className="display-1">Techra</h1>
+                <h2>Software Solutions LLC.</h2>
+              </div>
+              <div className="valueprop">
+                <h1 className="text-light">
+                  Affordable Software Services From Experts
+                </h1>
+              </div>
+            </section>
+          </div>
         </div>
-      </div>
+      </Fade>
       <div className="container">
-        <Bounce left>
+        <Fade left>
           <section className="home-headline">
             <h1 className="display-4 text-dark">
               Startup Businesses, now, can get Senior Developers at a Cost You
               Can Afford
             </h1>
           </section>
-        </Bounce>
+        </Fade>
         <section className="home-copy">
           <Fade>
             <article>
