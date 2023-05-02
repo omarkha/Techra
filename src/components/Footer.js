@@ -3,6 +3,7 @@ import logo from "../media/logo.png";
 const Footer = () => {
   return (
     <footer>
+      <hr className="text-light mb-5" />
       <div className="container">
         <div className="footer-content">
           <div
