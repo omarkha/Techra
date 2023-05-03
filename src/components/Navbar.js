@@ -7,10 +7,6 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg navbar-light ">
       <div className="container">
         <Link className="navbar-brand" to="/">
-          <div
-            className="navlogo"
-            style={{ backgroundImage: `url(${logo})` }}
-          ></div>
           Techra
         </Link>
         <button
@@ -30,6 +26,11 @@ const Navbar = () => {
             <li className="nav-item active">
               <Link className="nav-link" to="/services">
                 Services
+              </Link>
+            </li>
+            <li className="nav-item active">
+              <Link className="nav-link" to="/technologies">
+                Technologies
               </Link>
             </li>
             <li className="nav-item">

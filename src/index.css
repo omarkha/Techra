@@ -420,3 +420,61 @@ footer ul {
   background-size: contain;
   margin: 0 auto;
 }
+
+.technologies-page .services {
+  margin: 55px auto;
+  display: flex;
+  flex-direction: column;
+  grid-gap: 55px;
+}
+
+.technologies-page .service {
+  background: linear-gradient(rgba(255, 255, 255, 1), rgb(215, 215, 215));
+  padding: 21px;
+  border-radius: 13px;
+}
+
+.technologies-page .technology {
+  padding: 21px;
+  border-radius: 13px;
+}
+
+.technologies-page .technologies {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 55px;
+
+  border-bottom-right-radius: 34px;
+  border-bottom-left-radius: 34px;
+}
+
+.technologies-page .technology div {
+  width: 89px;
+  height: 89px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 21px auto;
+}
+
+.technologies-page .extra-tech {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+#github {
+  width: 144px;
+  height: 144px;
+  margin: 0 auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.services-page .services {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.services-page .service {
+  padding: 89px 21px;
+}

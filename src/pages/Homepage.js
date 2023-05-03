@@ -63,7 +63,9 @@ const Homepage = () => {
                   Techra Software Solutions,
                 </span>{" "}
                 We can design, fix and improve your web, mobile and/or desktop
-                apps. We’re here to make your product produce more money.
+                apps.
+                <br />
+                <br /> We will work to make your product produce more money.
               </p>
             </article>
           </Fade>
