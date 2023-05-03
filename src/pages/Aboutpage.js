@@ -1,18 +1,67 @@
 import React from "react";
-import { Zoom } from "react-reveal";
-
+import { Bounce, Fade, Zoom } from "react-reveal";
+import mypicture from "../media/mypicture2.jpg";
+import scrolldown from "../media/scroll-icon.png";
 const Aboutpage = () => {
   return (
     <div className="about-page">
       <div className="container">
         <section>
+          <div className="techra">
+            <Fade>
+              <h1 className="text-dark">Techra</h1>
+              <h2>Software Solutions LLC.</h2>
+            </Fade>
+            <Bounce>
+              <h3 className="mt-5 text-dark"> Scroll Down For More</h3>
+              <div
+                style={{ backgroundImage: `url(${scrolldown})` }}
+                className="scroll-icon"
+              />
+            </Bounce>
+          </div>
+
+          <Fade bottom>
+            <div className="companymission">
+              <h3 className="text-primary my-5">Our Mission</h3>
+              <p className="h4">
+                Techra Software Solutions aims to help new entrepreneurs build
+                high-quality software applications and reach their lifelong
+                dreams.
+              </p>
+            </div>
+          </Fade>
+          <Fade bottom>
+            <div className="companymission">
+              <h3 className="text-primary my-5">Our Vision</h3>
+              <p className="h4">
+                We work steadily to promote an all encompassing package of
+                solutions for benevelonet entrepreneurs so that they grow fast
+                and grow big.
+              </p>
+            </div>
+          </Fade>
           <Zoom>
             <div className="mystory">
-              <h3 className="subhead">How I became the CEO of Techra</h3>
+              <h3 className="text-primary my-5">Our Story</h3>
               <p className="subhead">
-                Hi There, and thanks for your interest.
+                <img
+                  style={{
+                    width: "233px",
+                    borderRadius: "50%",
+                    boxShadow: " 0 0 21px #000",
+                    float: "right",
+                    margin: "21px",
+                    transform: "rotate(-5deg)",
+                  }}
+                  src={mypicture}
+                  alt="A picture of Omar Khalil, CEO of Techra"
+                />{" "}
                 <br />
-                <br /> I’m Omar Khalil, the CEO of Techra Software Solutions.
+                Hi There. Thanks for your interest!
+                <br />
+                <br />
+                I’m Omar Khalil, the CEO of Techra Software Solutions.
                 <br />
                 <br />
                 When I was an 8 year old child, my mother used to bring me and
@@ -53,10 +102,10 @@ const Aboutpage = () => {
                 to motivate them to improve their quality.
                 <br />
                 <br />
-                I started to become a Software Engineer. I also took classes in
-                Computer Science and Graphics Design in high school. And in the
-                year 2022 I completed General Assembly’s Software Engineering
-                Bootcamp.
+                Step by step, I started to become a Software Engineer. I took
+                classes in Computer Science and Graphics Design in high school.
+                And in the year 2022 I completed General Assembly’s Software
+                Engineering Bootcamp.
                 <br />
                 <br />
                 I met many cool like-minded people there, and I started to
