@@ -127,14 +127,14 @@ article {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  padding: 89px 144px;
+  padding: 21px 144px;
   background: linear-gradient(
     34deg,
     rgba(255, 255, 255, 0.62),
     rgba(255, 255, 255, 1)
   );
   background-size: cover;
-  margin: 89px 55px;
+  margin: 21px 55px;
   border-radius: 21px;
 }
 

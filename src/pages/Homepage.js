@@ -28,11 +28,13 @@ const Homepage = () => {
         </div>
       </Fade>
       <div className="container">
-        <Fade left>
+        <Fade bottom>
           <section className="home-headline">
             <h1 className="display-4 text-dark">
-              Startup Businesses, now, can get Senior Developers at a Cost You
-              Can Afford
+              <u>
+                Startup Businesses, now, can get Senior Developers at a Cost You
+                Can Afford
+              </u>
             </h1>
           </section>
         </Fade>
@@ -45,14 +47,10 @@ const Homepage = () => {
               <p className=" text-dark">
                 With over 4,900,000,000 people in the world having access to the
                 internet, smart and confident entrepreneurs see gold mines in
-                the technology sector.
-                <br />
-                <br />
-                True entreprenurs know the potential wealth they can get from a
-                quality application. <br />
-                <br />
-                The quality of your application can be the difference between a
-                house and a mansion.
+                the technology sector. True entreprenurs know the potential
+                wealth they can get from a quality application. The quality of
+                your application can be the difference between a house and a
+                mansion.
                 <br />
                 <br />
                 And we know how to guide you to capitalize on your ideas.
@@ -60,9 +58,12 @@ const Homepage = () => {
                 <br />
                 So are you looking to capture business opportunities?
                 <br />
-                <br /> At Techra, We can design, fix and improve your web,
-                mobile and/or desktop apps. We’re here to make your product
-                produce more money.
+                <br /> At{" "}
+                <span className="text-primary">
+                  Techra Software Solutions,
+                </span>{" "}
+                We can design, fix and improve your web, mobile and/or desktop
+                apps. We’re here to make your product produce more money.
               </p>
             </article>
           </Fade>
@@ -106,12 +107,8 @@ const Homepage = () => {
               </h3>
               <p className=" text-dark">
                 Imagine that you hired a foreign company for its cheap prices.{" "}
-                <br />
-                <br />
                 Aside from their cheap prices they provide you with cheap
-                products.
-                <br />
-                <br /> Maybe they pull some tricks on you and play games to
+                products. Maybe they pull some tricks on you and play games to
                 squeeze every dollar from your budget.
                 <br />
                 <br /> Maybe they deliver the product but after a while you find
@@ -120,7 +117,8 @@ const Homepage = () => {
                 you do then but get demoralized?
                 <br />
                 <br />
-                A few clients of ours went through such experiences previously.
+                A few clients of ours went through such experiences previously
+                and we had to fix their apps.
                 <br />
                 <br /> It’s why many startups are starting to only work with
                 companies based in the U.S. who take their reputation seriously.
@@ -141,15 +139,12 @@ const Homepage = () => {
                 We Count On Your Success For Our Success
               </h3>
               <p className=" text-dark">
-                Money matters a lot in the beginning of a business.
+                Money matters a lot in the beginning of a business. To get
+                quality software engineering services you usually need to pay
+                large sums of money. Aside from the product, you got marketing
+                to worry about, legal things and so on. <br />
                 <br />
-                <br /> To get quality software engineering services you usually
-                need to pay large sums of money.
-                <br />
-                <br /> Aside from the product, you got marketing to worry about,
-                legal things and so on. <br />
-                <br />
-                Startup businesses are risky, but we will do everything in our
+                Startup businesses are risky, so we will do everything in our
                 power to ensure that the software aspect of your business is not
                 a worrying matter.
                 <br />
@@ -161,13 +156,13 @@ const Homepage = () => {
                 <br />
                 <br /> Every penny matters. <br />
                 <br />
-                We also understand that for our own startup, the satisfaction of
-                every client is valuable to our reputation. For that reason we
-                are flexible with budget concerns. <br />
+                Because we understand that for our own startup, the satisfaction
+                of every client is valuable to our reputation. For that reason
+                we are flexible with budget concerns. <br />
                 <br />
                 And what matters to us more than money is a mutually beneficial
-                relationship with you and to satisfy your needs and monetary
-                concerns.
+                business relationship with you and to satisfy your needs and
+                consider the stage of business you're at.
               </p>
             </article>
           </Fade>
@@ -194,7 +189,7 @@ const Homepage = () => {
             </article>
           </Fade>
         </section>
-        <Zoom left>
+        <Zoom>
           <section className="home-offer">
             <div className="offer">
               <div className="offer-copy">

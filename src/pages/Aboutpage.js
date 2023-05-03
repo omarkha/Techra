@@ -8,17 +8,17 @@ const Aboutpage = () => {
       <div className="container">
         <section>
           <div className="techra">
-            <Fade>
+            <Fade top>
               <h1 className="text-dark">Techra</h1>
               <h2>Software Solutions LLC.</h2>
             </Fade>
-            <Bounce>
+            <Fade bottom>
               <h3 className="mt-5 text-dark"> Scroll Down For More</h3>
               <div
                 style={{ backgroundImage: `url(${scrolldown})` }}
                 className="scroll-icon"
               />
-            </Bounce>
+            </Fade>
           </div>
 
           <Fade right>
