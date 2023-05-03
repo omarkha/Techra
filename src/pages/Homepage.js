@@ -84,7 +84,7 @@ const Homepage = () => {
                 product that fits your business needs.
                 <br />
                 <br />
-                <strong className="text-danger">
+                <strong className="text-success">
                   At Techra, the only developers working on your product are{" "}
                   <u>Senior Software Developers</u> who are{" "}
                   <u>University Graduates</u> with an average of{" "}
@@ -105,7 +105,8 @@ const Homepage = () => {
                 You Won't Get Bamboozled
               </h3>
               <p className=" text-dark">
-                Imagine you hired a foreign company for its cheap prices. <br />
+                Imagine that you hired a foreign company for its cheap prices.{" "}
+                <br />
                 <br />
                 Aside from their cheap prices they provide you with cheap
                 products.
@@ -125,8 +126,11 @@ const Homepage = () => {
                 companies based in the U.S. who take their reputation seriously.
                 <br />
                 <br />
-                Based in <u>upstate New York, the Hudson Valley area,</u> Techra
-                provides you with the safety and security of dealing with
+                Based in{" "}
+                <u className="text-success">
+                  upstate New York, the Hudson Valley area,
+                </u>{" "}
+                Techra provides you with the safety and security of dealing with
                 accountable professionals.
               </p>
             </article>
