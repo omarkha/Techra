@@ -247,6 +247,29 @@ const Homepage = () => {
             </div>
           </article>
         </section>
+        <section>
+          <article>
+            <h3>When you work with Techra you get the following:</h3>
+            <ul>
+              <li>
+                <strong>Based in the US.</strong> A company you can trust and
+                feel at ease working with.
+              </li>
+              <li>
+                <strong>Working with Senior Software Engineers.</strong> For a
+                product that is guaranteed to meet your needs.
+              </li>
+              <li>
+                <strong>Working with a Growing Company.</strong> For Competitive
+                Pricing that you can rarely find elsewhere.{" "}
+              </li>
+              <li>
+                <strong>Strong Company Network.</strong> We can continue to
+                provide you with excellent results for a long time.
+              </li>
+            </ul>
+          </article>
+        </section>
       </div>
     </div>
   );

@@ -91,14 +91,14 @@ code {
   flex-direction: column;
   justify-content: center;
   width: 38%;
-  color: rgb(160, 160, 255);
+  color: rgb(215, 215, 255);
 }
 
 .techra h1 {
   font-family: "Bruno Ace SC", cursive;
   color: rgb(255, 255, 255);
   font-size: 89px;
-  text-shadow: 0 0 13px rgb(40, 40, 160);
+  text-shadow: 0 0 13px rgb(5, 5, 5);
 }
 
 .valueprop {
@@ -412,6 +412,11 @@ footer ul {
 .about-page .techra {
   margin: 0 auto;
   height: calc(100vh - 89px);
+  color: rgb(40, 40, 160);
+}
+
+.about-page .techra h1 {
+  text-shadow: 0 0 13px rgb(40, 40, 160);
 }
 
 .scroll-icon {
@@ -477,4 +482,8 @@ footer ul {
 
 .services-page .service {
   padding: 89px 21px;
+}
+
+footer .techra h1 {
+  text-shadow: 0 0 13px rgb(40, 40, 160);
 }
