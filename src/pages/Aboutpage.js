@@ -21,7 +21,7 @@ const Aboutpage = () => {
             </Bounce>
           </div>
 
-          <Fade bottom>
+          <Fade right>
             <div className="companymission">
               <h3 className="text-primary my-5">Our Mission</h3>
               <p className="h4">
@@ -31,8 +31,8 @@ const Aboutpage = () => {
               </p>
             </div>
           </Fade>
-          <Fade bottom>
-            <div className="companymission">
+          <Fade left>
+            <div className="companyvision">
               <h3 className="text-primary my-5">Our Vision</h3>
               <p className="h4">
                 We work steadily to promote an all encompassing package of

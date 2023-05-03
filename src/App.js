@@ -7,6 +7,7 @@ import Homepage from "./pages/Homepage";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Contactpage from "./pages/Contactpage";
 import Aboutpage from "./pages/Aboutpage";
+import Servicespage from "./pages/Servicespage";
 function App() {
   const [loading, setLoading] = useState(false);
 
@@ -35,6 +36,7 @@ function App() {
               <Route element={<Homepage />} path="/" />
               <Route element={<Contactpage />} path="/contact" />
               <Route element={<Aboutpage />} path="/about" />
+              <Route element={<Servicespage />} path="/services" />
             </Routes>
 
             <Footer />

@@ -20,7 +20,7 @@ const Homepage = () => {
               </div>
               <div className="valueprop">
                 <h1 className="text-light">
-                  Affordable Software Services From Experts
+                  Affordable Software Services From Trusted Experts
                 </h1>
               </div>
             </section>

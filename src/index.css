@@ -9,7 +9,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(215, 215, 255);
+  background-color: rgb(255, 255, 255);
 }
 
 code {
@@ -115,6 +115,10 @@ code {
   font-weight: bolder;
 }
 
+.home-page {
+  background-color: #fff;
+}
+
 .home-page section {
   margin: 144px auto;
 }
@@ -130,7 +134,7 @@ article {
     rgba(255, 255, 255, 1)
   );
   background-size: cover;
-  margin: 144px 55px;
+  margin: 89px 55px;
   border-radius: 21px;
 }
 
@@ -383,8 +387,26 @@ footer ul {
 
 .about-page .companymission {
   width: 86%;
-  margin: 0 auto;
-  padding: 34px;
+  margin: 55px auto;
+  padding: 89px 34px;
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 1),
+    rgba(215, 215, 255, 0.62)
+  );
+  border-radius: 34px;
+}
+
+.about-page .companyvision {
+  width: 86%;
+  margin: 55px auto;
+  padding: 89px 34px;
+  background: linear-gradient(
+    to left,
+    rgba(255, 255, 255, 1),
+    rgba(215, 215, 255, 0.62)
+  );
+  border-radius: 34px;
 }
 
 .about-page .techra {
